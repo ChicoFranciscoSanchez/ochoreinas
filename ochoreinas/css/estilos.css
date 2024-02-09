@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    /*definimos el color de la linea*/
+    border: 1px solid;
+  }
+  tr {
+    border: 1px solid;
+    height: 75px;
+  }
+  
+  /*tr:nth-child(odd) td:nth-child(even),
+  tr:nth-child(even) td:nth-child(odd) {
+    background-color: #CACA22; /* Cambia el color de fondo para las celdas impares en filas impares y celdas pares en filas pares */
+  
+  tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) { background: rgb(94, 99, 71); } tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) { background: rgb(101, 65, 65); }
+  
+  td {
+    border: 1px solid;
+    width: 75px;
+  }
